@@ -4,6 +4,7 @@ def turn_count(board)
     if occupied != " "
       count += 1
     end
+    count
   end
 end
 
