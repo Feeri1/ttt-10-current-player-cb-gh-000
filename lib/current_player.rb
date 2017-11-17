@@ -1,10 +1,9 @@
-def turn_count
+def turn_count(board)
   count = 0
   player = ["X", "O"]
-  player.each do |player|
+  board.each do |occupied|
     count += 1
   end
-  count
 end
 
 
